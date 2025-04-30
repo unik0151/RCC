@@ -1,0 +1,21 @@
+[mysql]
+max_open_conns = 50
+min_idle_conns = 5
+max_conn_life_time = 600
+dsn = "root:123456@tcp(127.0.0.1:3306)/miniapp?charset=utf8mb4&parseTime=True&loc=Local"
+
+[jwt]
+secret = "djssakns20kdma."
+expire = 3
+
+[env]
+version = 2
+port = 8090
+
+[email]
+from = "tuo-noreply@transwarp.io"
+password = "TUOadmin2019"
+host = "smtp.exmail.qq.com"
+subject = "system alert"
+port = "465"
+validate_time = 5

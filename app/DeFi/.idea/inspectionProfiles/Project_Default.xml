@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoDfaErrorMayBeNotNil" enabled="true" level="WARNING" enabled_by_default="true">
+      <functions>
+        <function importPath="github.com/dgrijalva/jwt-go" name="Parse" />
+      </functions>
+      <methods>
+        <method importPath="p-cy/api/models" receiver="*TEmail" name="FindInfoByEmail" />
+        <method importPath="github.com/ethereum/go-ethereum/ethclient" receiver="*Client" name="PendingBalanceAt" />
+      </methods>
+    </inspection_tool>
+  </profile>
+</component>

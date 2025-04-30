@@ -32,7 +32,7 @@ func GetDBDriver() *gorm.DB {
 		panic("Database connect Error !")
 
 	}
-
+	
 	return db
 }
 
